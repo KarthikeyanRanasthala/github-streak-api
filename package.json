@@ -1,0 +1,20 @@
+{
+  "name": "github-streak-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KarthikeyanRanasthala/github-streak-api.git",
+  "author": "KarthikeyanRanasthala <karthikeyan.ranasthala@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "github-calendar-parser": "^1.1.10",
+    "node-html-parser": "^1.1.16"
+  },
+  "engines": {
+    "node": "10.6.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
