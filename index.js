@@ -1,9 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 const axios = require("axios");
 const htmlParser = require("node-html-parser");
 const githubParser = require("github-calendar-parser");
 
 const app = express();
+
+app.use(cors());
 
 app.get("/:user_name", function(req, res) {
   const userName = req.params.user_name;
